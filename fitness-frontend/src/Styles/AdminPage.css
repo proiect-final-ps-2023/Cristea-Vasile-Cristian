@@ -1,0 +1,16 @@
+.add-trainer-inputs-container {
+    margin-top: 25vh;
+    margin-left: 47.5vh;
+}
+
+.admin-page-buttons {
+    display: flex;
+    padding: 0px 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.add-trainer-button-container {
+    margin-left: 700px;
+}

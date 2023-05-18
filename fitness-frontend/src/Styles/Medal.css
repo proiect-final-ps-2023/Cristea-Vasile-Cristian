@@ -1,0 +1,22 @@
+.medal-container{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+}
+
+.medal-icon {
+    height: 64px;
+    width: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.medal-header {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--green-two);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

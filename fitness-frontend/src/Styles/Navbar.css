@@ -1,0 +1,48 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 43px;
+    padding-right: 45px;
+    height: 78px;
+}
+
+.app-user-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.app-name {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--white);
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li button {
+    display: block;
+    border: none;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav li button:hover {
+    background-color: var(--gray-one);
+}

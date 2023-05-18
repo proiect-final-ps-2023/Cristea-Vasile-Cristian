@@ -1,0 +1,23 @@
+.medals-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.medals-header {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--green-two);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.medals-container > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
